@@ -5,6 +5,7 @@ import LinkButton from './components/LinkButton';
 import Services from './components/Services';
 import Footer from './components/Footer';
 import WindBreeze from './components/WindBreeze';
+import MaritimeBackground from './components/MaritimeBackground';
 
 export default function App() {
   return (
@@ -29,6 +30,9 @@ export default function App() {
 
         {/* High performance 2D Wind Breeze animation */}
         <WindBreeze />
+
+        {/* 2D Navigational background theme: compass rose and waves */}
+        <MaritimeBackground />
       </div>
 
       {/* Top Header Navbar */}
