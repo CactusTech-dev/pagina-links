@@ -1,22 +1,25 @@
 import { motion } from 'motion/react';
+import { TzeuIcon } from './TzeuLogo';
 
 export default function Profile() {
   return (
     <div className="flex flex-col items-center text-center px-4 max-w-2xl mx-auto mb-12">
+      {/* Premium TZEU Logo */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8, y: -20 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        className="relative group mb-8 w-full max-w-[420px]"
+        className="relative group mb-8"
       >
-        <div className="absolute -inset-6 bg-gradient-to-r from-neutral-800 via-white to-neutral-800 rounded-[2rem] opacity-10 blur-2xl group-hover:opacity-20 transition duration-1000 group-hover:duration-200" />
-
-        <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white p-3 shadow-2xl shadow-black/40 ring-1 ring-white/5">
-          <div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-white/20 via-transparent to-neutral-950/10" />
-          <img
-            src="/tzeu-logo.jpeg"
-            alt="TZEU"
-            className="relative h-auto w-full rounded-xl object-contain"
+        {/* Glow effect */}
+        <div className="absolute -inset-4 bg-gradient-to-r from-neutral-800 via-neutral-100 to-neutral-800 rounded-2xl opacity-10 blur-xl group-hover:opacity-20 transition duration-1000 group-hover:duration-200"></div>
+        
+        {/* SVG TZEU Icon */}
+        <div className="relative bg-neutral-950/50 border border-neutral-800/80 p-5 rounded-2xl backdrop-blur-md flex items-center justify-center">
+          <TzeuIcon 
+            size={76} 
+            color="#FFFFFF" 
+            className="transform group-hover:scale-105 transition-transform duration-500" 
           />
         </div>
       </motion.div>

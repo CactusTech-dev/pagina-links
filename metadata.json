@@ -1,5 +1,6 @@
 {
   "name": "TZEU Tech",
-  "description": "Página de links oficial da TZEU Tech, startup de tecnologia focada em inovação e soluções digitais de alta performance.",
-  "requestFramePermissions": []
+  "description": "Landing page premium para a TZEU Tech, startup de tecnologia focada em inovação e soluções digitais de alta performance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

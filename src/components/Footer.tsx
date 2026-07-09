@@ -25,36 +25,15 @@ export default function Footer() {
           </motion.div>
 
           {/* Contact Actions Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto">
-            {/* WhatsApp Link Card */}
-            <motion.a
-              href="https://wa.me/5585999999999"
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.98 }}
-              className="flex items-center justify-between p-4 rounded-xl bg-emerald-500/5 hover:bg-emerald-500/10 border border-emerald-500/20 hover:border-emerald-500/40 transition-all duration-300 group"
-            >
-              <div className="flex items-center space-x-3">
-                <div className="p-2.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
-                  <MessageCircle className="w-5 h-5" />
-                </div>
-                <div className="text-left">
-                  <span className="block text-xs text-neutral-400">WhatsApp</span>
-                  <span className="block text-sm font-sans font-medium text-emerald-400">(85) 99999-9999</span>
-                </div>
-              </div>
-              <ArrowRight className="w-4 h-4 text-neutral-500 group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
-            </motion.a>
-
+          <div className="flex justify-center max-w-md mx-auto">
             {/* Email Link Card */}
             <motion.a
-              href="mailto:contato@tzeu.tech"
+              href="mailto:cactutechdesenvolvimento@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.98 }}
-              className="flex items-center justify-between p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 transition-all duration-300 group"
+              className="w-full flex items-center justify-between p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 transition-all duration-300 group"
             >
               <div className="flex items-center space-x-3">
                 <div className="p-2.5 rounded-lg bg-white/5 border border-white/10 text-neutral-300">
@@ -62,7 +41,7 @@ export default function Footer() {
                 </div>
                 <div className="text-left">
                   <span className="block text-xs text-neutral-400">E-mail Comercial</span>
-                  <span className="block text-sm font-sans font-medium text-neutral-200">contato@tzeu.tech</span>
+                  <span className="block text-sm font-sans font-medium text-neutral-200">cactutechdesenvolvimento@gmail.com</span>
                 </div>
               </div>
               <ArrowRight className="w-4 h-4 text-neutral-500 group-hover:text-white group-hover:translate-x-1 transition-all" />

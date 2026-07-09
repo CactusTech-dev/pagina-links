@@ -23,6 +23,7 @@ const iconMap = {
 };
 
 interface LinkButtonProps {
+  key?: string;
   link: LinkItem;
   index: number;
 }
@@ -52,7 +53,7 @@ export default function LinkButton({ link, index }: LinkButtonProps) {
       
       <div className="flex items-center space-x-4 z-10">
         {/* Animated Icon Wrapper with accent gradient border */}
-        <div className="p-3.5 rounded-xl bg-neutral-950/60 border border-neutral-800/80 group-hover:border-neutral-600/50 transition-colors duration-300 relative">
+        <div className={`p-3.5 rounded-xl bg-neutral-950/60 border border-neutral-800/80 group-hover:border-neutral-600/50 transition-colors duration-300 relative`}>
           <div className="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 rounded-xl transition-opacity duration-300" />
           <IconComponent className="w-6 h-6 text-neutral-300 group-hover:text-white transition-colors duration-300" />
         </div>
