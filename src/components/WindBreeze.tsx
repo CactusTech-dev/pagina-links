@@ -40,7 +40,7 @@ export default function WindBreeze() {
         length: 100 + Math.random() * 150,
         speed: 0.5 + Math.random() * 1.2,
         opacity: 0,
-        maxOpacity: 0.02 + Math.random() * 0.04, // Very faint and premium
+        maxOpacity: 0.08 + Math.random() * 0.1, // More visible yet elegant
         fadeStage: 'in',
       };
     }

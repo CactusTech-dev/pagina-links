@@ -7,7 +7,7 @@ export default function MaritimeBackground() {
       <motion.div
         animate={{ rotate: 360 }}
         transition={{ duration: 200, repeat: Infinity, ease: 'linear' }}
-        className="absolute top-[18%] left-1/2 -translate-x-1/2 w-[380px] md:w-[550px] h-[380px] md:h-[550px] opacity-[0.015] text-white"
+        className="absolute top-[18%] left-1/2 -translate-x-1/2 w-[380px] md:w-[550px] h-[380px] md:h-[550px] opacity-[0.06] text-white"
       >
         <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" strokeWidth="0.5" className="w-full h-full">
           {/* Outer ring */}
@@ -44,7 +44,7 @@ export default function MaritimeBackground() {
       </motion.div>
 
       {/* 2. Gentle Waves at the bottom */}
-      <div className="absolute bottom-0 left-0 w-full h-24 overflow-hidden opacity-[0.02]">
+      <div className="absolute bottom-0 left-0 w-full h-24 overflow-hidden opacity-[0.1]">
         <svg
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
