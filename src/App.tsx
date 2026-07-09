@@ -5,7 +5,6 @@ import LinkButton from './components/LinkButton';
 import Services from './components/Services';
 import Footer from './components/Footer';
 import WindBreeze from './components/WindBreeze';
-import { TzeuIcon } from './components/TzeuLogo';
 
 export default function App() {
   return (
@@ -35,9 +34,13 @@ export default function App() {
       {/* Top Header Navbar */}
       <header className="relative w-full max-w-6xl mx-auto px-4 py-6 flex items-center justify-between z-10 border-b border-white/[0.02]">
         <div className="flex items-center space-x-3">
-          {/* Typographic Mini-logo */}
-          <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-neutral-900 border border-neutral-800 p-1">
-            <TzeuIcon size={18} color="#FFFFFF" />
+          {/* Logo Card */}
+          <div className="relative flex h-9 w-28 items-center justify-center overflow-hidden rounded-lg border border-white/10 bg-white px-2 shadow-lg shadow-black/20">
+            <img
+              src="/tzeu-logo.jpeg"
+              alt="TZEU"
+              className="h-full w-full object-contain"
+            />
           </div>
           <span className="text-sm font-sans font-semibold tracking-wider text-white">TZEU</span>
         </div>
