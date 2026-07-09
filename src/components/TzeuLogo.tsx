@@ -64,12 +64,12 @@ export function TzeuIcon({ className = '', size = 80, color = 'currentColor' }: 
         {/* Right Spine (Connects Bars 2, 3, 4, 5) */}
         <rect x="102" y="72" width="8" height="68" />
 
-        {/* Parallel Diagonal Ribbons (Slanted from top-left to bottom-right) */}
-        {/* Diagonal 1 (From top-left of Bar 2 to bottom-right of Bar 4) */}
-        <path d="M 30 72 L 110 112 L 110 123 L 30 83 Z" />
+        {/* Parallel Diagonal Ribbons (Slanted from bottom-left to top-right to match the official logo) */}
+        {/* Diagonal 1 (From bottom-left of Bar 4 to top-right of Bar 2) */}
+        <path d="M 30 112 L 110 72 L 110 83 L 30 123 Z" />
         
-        {/* Diagonal 2 (From top-left of Bar 3 to bottom-right of Bar 5) */}
-        <path d="M 30 92 L 110 132 L 110 143 L 30 103 Z" />
+        {/* Diagonal 2 (From bottom-left of Bar 5 to top-right of Bar 3) */}
+        <path d="M 30 132 L 110 92 L 110 103 L 30 143 Z" />
 
         {/* Bottom Curved "U" shape (Connects seamlessly with the Spines at Bar 5) */}
         <path d="M 30 140 A 40 40 0 0 0 110 140 L 102 140 A 32 32 0 0 1 38 140 Z" />
