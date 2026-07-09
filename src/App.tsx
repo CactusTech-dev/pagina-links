@@ -4,12 +4,13 @@ import Profile from './components/Profile';
 import LinkButton from './components/LinkButton';
 import Services from './components/Services';
 import Footer from './components/Footer';
+import WindBreeze from './components/WindBreeze';
 
 export default function App() {
   return (
     <div className="min-h-screen bg-[#050505] text-neutral-200 selection:bg-white/10 selection:text-white relative overflow-x-hidden font-sans">
       
-      {/* Background Ambience: Subtle grid + Top Glowing Spotlight */}
+      {/* Background Ambience: Subtle grid + Top Glowing Spotlight + Animated Breeze */}
       <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
         {/* Subtle grid pattern */}
         <div 
@@ -25,6 +26,9 @@ export default function App() {
         
         {/* Bottom subtle ambient light projection */}
         <div className="absolute bottom-0 right-10 w-[400px] h-[400px] bg-white/[0.01] blur-[150px] rounded-full" />
+
+        {/* High performance 2D Wind Breeze animation */}
+        <WindBreeze />
       </div>
 
       {/* Top Header Navbar */}
