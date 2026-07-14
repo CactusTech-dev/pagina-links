@@ -41,7 +41,7 @@ export default function Footer() {
                 </div>
                 <div className="text-left">
                   <span className="block text-xs text-neutral-400">E-mail Comercial</span>
-                  <span className="block text-sm font-sans font-medium text-neutral-200">cactutechdesenvolvimento@gmail.com</span>
+                  <span className="block text-sm font-sans font-medium text-neutral-200">tzeutechdesenvolvimento@gmail.com</span>
                 </div>
               </div>
               <ArrowRight className="w-4 h-4 text-neutral-500 group-hover:text-white group-hover:translate-x-1 transition-all" />
