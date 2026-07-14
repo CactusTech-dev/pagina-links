@@ -27,8 +27,7 @@ export const links: LinkItem[] = [
   {
     id: 'email',
     label: 'E-mail',
-    url: 'mailto:tzeutechdesenvolvimento@gmail.com
-',
+    url: 'mailto:tzeutechdesenvolvimento@gmail.com',
     iconName: 'Mail',
     description: 'Fale diretamente com nossa equipe para parcerias.',
     accentColor: 'from-red-400 to-orange-500',
